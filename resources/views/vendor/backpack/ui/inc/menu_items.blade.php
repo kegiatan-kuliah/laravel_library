@@ -5,3 +5,4 @@
 <x-backpack::menu-item title="Authors" icon="la la-user-astronaut" :link="backpack_url('author')" />
 <x-backpack::menu-item title="Books" icon="la la-book" :link="backpack_url('book')" />
 <x-backpack::menu-item title="Guest books" icon="la la-book-open" :link="backpack_url('guest-book')" />
+<x-backpack::menu-item title="Transactions" icon="la la-handshake" :link="backpack_url('transaction')" />
