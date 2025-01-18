@@ -21,6 +21,7 @@ Route::group([
     Route::crud('book', 'BookCrudController');
     Route::crud('guest-book', 'GuestBookCrudController');
     Route::crud('transaction', 'TransactionCrudController');
+    Route::get('/transaction/export', 'TransactionCrudController@export')->name('transaction.export');
 }); // this should be the absolute last line of this file
 
 /**
